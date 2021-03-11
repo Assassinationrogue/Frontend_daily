@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:rgb(226, 224, 224);
+    font-family:'Roboto', sans-serif;
+    color: #777;
+    line-height: 1.7;
+}
+
+.section_1{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    padding-top:20px;
+    background-color:rgb(163, 160, 160);
+    box-shadow: slategray 2px 2px 5px;
+    display: sticky;
+}
+
+.symbol>h1{
+    padding-left: 10%;
+    color:linear-gradient(to bottom,rgb(163, 162, 162) ,rgb(255, 255, 255) );
+    text-shadow:rgb(105, 105, 105) 1px 1px 5px;
+    padding-bottom: 20px;
+}
+
+.symbol>h1:hover{
+    color: white;
+    transition: .5s;
+}
+
+nav>ul{
+    display: flex;
+    list-style: none;
+    font-size: large;
+
+}
+
+nav>ul>li>a:hover{
+    color:white;
+    transition: .5s;
+    text-shadow:rgb(105, 105, 105) 1px 1px 5px ;
+}
+
+nav>ul>li{
+    padding-left: 20px;
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+    color:rgb(0, 0, 255);
+
+}
+
+.text-box{
+    padding:2rem;
+    display: absolute;
+    background-color: skyblue;
+    height: 25em;
+    margin-top:.5em;
+
+}
+.header-tag{
+    text-transform: uppercase;
+    text-shadow: rgb(101, 149, 168) 2px 2px 5px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+    z-index: 1;
+    background-color: blue;
+}
+
+.header-tag-2{
+    text-transform: uppercase;
+    text-shadow: rgb(101, 149, 168) 2px 2px 5px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+    z-index: 1;
+    background-color: brown;
+}
+
+.container{
+    display: grid;
+    padding: 50px;
+    position: relative;
+}
+.image1,.image2{
+    position: absolute;
+}
+.image1{
+    display: block;
+    padding: 20px;
+    
+    top: 50px;
+    left: 35vh;
+    opacity: 100%;
+    z-index: 2;
+}
+
+.image2{
+    display: block;
+    padding: 20px;
+    top: 50px;
+    left: 35vh;
+    opacity: 100%;
+    z-index: 1;
+}
+
+

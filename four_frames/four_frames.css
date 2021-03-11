@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 30px;
+}
+
+/* .block{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    font-size:35px ;
+}
+
+.container>.text_box>div{
+    padding-top: 50px;
+} */
+
+.frame_2,.frame_3,.frame_4{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+}
+.text_box{
+    position: relative;
+}
+.frame_1{
+    width: 50px;
+    height: 50px;
+}
+.frame_1{
+    background-color: skyblue;
+    
+}
+
+.frame_2{
+    background-color: slateblue;
+    left: 5px;
+    z-index:1;
+    
+}
+
+.frame_3{
+    background-color: tomato;
+    left: 10px;
+}
+
+.frame_4{
+    background-color: turquoise;
+    left: 15px;
+}
